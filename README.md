@@ -36,6 +36,14 @@ https://github.com/cemkeylan/carbs
 for more info
 
 
+Installation on Void Linux
+--------------------------
+
+These can be installed on Void Linux using
+
+  sh -c "$(curl -L cemkeylan.com/vcarbs)"
+
+
 See also
 --------
 
