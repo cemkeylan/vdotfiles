@@ -22,22 +22,8 @@ Contents
    * rofi
 
 
-Installation on Arch and derivatives
-------------------------------------
-
-These can be installed on Arch and derivatives using
-
-  sh -c "$(curl -L cemkeylan.com/carbs)"
-
-Please see 
-https://git.ckyln.com/carbs/file/README.html 
-or
-https://github.com/cemkeylan/carbs
-for more info
-
-
-Installation on Void Linux
---------------------------
+Installation 
+------------
 
 These can be installed on Void Linux using
 
