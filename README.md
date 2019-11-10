@@ -30,6 +30,15 @@ These can be installed on Void Linux using
   sh -c "$(curl -L cemkeylan.com/vcarbs)"
 
 
+On Arch Linux
+-------------
+
+My dotfiles for Arch Linux and Installation Notes can be found on 
+https://github.com/cemkeylan/dotfiles
+or
+https://git.ckyln.com/dotfiles/log.html
+
+
 See also
 --------
 
