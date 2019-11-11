@@ -22,3 +22,4 @@ export PATH=$HOME/.gem/ruby/2.6.0/bin/:$PATH
 export BUG_PROJECT="$HOME/.todo.bug"
 [ -e $HOME/.config/shortcutrc ] && . $HOME/.config/shortcutrc
 [ -e $HOME/.customprofile ] && . $HOME/.customprofile
+[ -d "$HOME"/.dbus/session-bus ] && . "$HOME"/.dbus/session-bus/*
