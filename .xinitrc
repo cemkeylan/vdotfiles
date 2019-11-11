@@ -8,11 +8,11 @@ nightmodetoggle disable &
 powercheck &
 slstatus &
 [ -e $HOME/.lastresource ] && xrdb "$(cat $HOME/.lastresource)" || xrdb $HOME/.local/share/xresource-themes/dark/dracula
+zc &
 unclutter &
 numlockx on &
 mpd >/dev/null 2>&1 &
 if [ -z "$DBUS_SESSION_BUS_ADDRESS" ]; then
-	eval "$(ck-launch-session dbus-launch --sh-syntax)"
 	dbus-update-activation-environment --all
 else
 	dbus-update-activation-environment --systemd DISPLAY
