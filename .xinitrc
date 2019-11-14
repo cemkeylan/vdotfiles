@@ -2,6 +2,7 @@
 
 . $HOME/.profile
 . $HOME/.config/xkeymap
+/usr/libexec/polkit-gnome-authentication-agent-1 &
 setxkbmap $KEYMAP
 xcompmgr -C &
 nightmodetoggle disable &
