@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-$HOME/.local/bin/lockme
+notify-send "CARBS" "Welcome back, $USER"
