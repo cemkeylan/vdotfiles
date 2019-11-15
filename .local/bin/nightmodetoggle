@@ -52,4 +52,5 @@ then
 else
 	touch $HOME/.night
 	printf "CLICK=0\nNIGHT=0" > $HOME/.night
+	$HOME/.local/bin/nightmodetoggle disable
 fi
