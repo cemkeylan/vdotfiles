@@ -11,7 +11,6 @@ powercheck &
 [ -e $HOME/.lastresource ] && xrdb "$(cat $HOME/.lastresource)" || xrdb $HOME/.local/share/xresource-themes/dark/dracula
 zc &
 unclutter &
-numlockx on &
 mpd >/dev/null 2>&1 &
 xautolock -time 10 -locker '~/.local/bin/lockme' &
 [ -e $HOME/.custom.sh ] && $HOME/.custom.sh &
